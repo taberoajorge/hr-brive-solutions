@@ -13,7 +13,7 @@ You're Welcome future folk!
 
 
 
-[![Open in VSCode](https://img.shields.io/badge/Open%20in-VSCode%20Web-blue?style=for-the-badge)](https://github.com/taberoajorge/hr-brive-solutions)
+[![Open in VSCode](https://img.shields.io/badge/Open%20in-VSCode%20Web-blue?style=for-the-badge)](https://github.dev/taberoajorge/hr-brive-solutions)
 
 
 ```
