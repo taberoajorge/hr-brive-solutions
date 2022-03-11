@@ -1,7 +1,13 @@
 # HR Brive Solutions
 
+## DEPLOYED PROJECT [yes, you should to click]
+
+[![CLICK ME TO SEE THE MAGIC](https://github.com/taberoajorge/gif/blob/main/HwN1QGT%20-%20Imgur.gif?raw=true)](https://adoring-brattain-a222ff.netlify.app)
+
 This repo will hold a complete to listed and add all your team!.
 You're Welcome future folk! 
+
+
 
 ## Structure
 
