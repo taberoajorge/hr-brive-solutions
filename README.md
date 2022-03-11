@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# HR Brive Solutions
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo will hold a complete to listed and add all your team!.
+You're Welcome future folk! 
 
-## Available Scripts
+## Structure
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[![Open in VSCode](https://img.shields.io/badge/Open%20in-VSCode%20Web-blue?style=for-the-badge)](https://github.com/taberoajorge/hr-brive-solutions)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+├── components
+│   ├── Header.js
+│   ├── ProfileImage.js
+│   └── UserDetails.js
+├── context
+│   └── userContext.js
+├── helpers
+│   ├── getUsers.js
+│   ├── updateData.js
+│   └── viewProfile.js
+├── hooks
+│   └── useLocalStorage.js
+├── index.js
+├── layout
+│   ├── DetailItem.js
+│   └── ListContainer.js
+├── pages
+│   ├── Employee.js
+│   └── Home.js
+└── routes
+    └── AppRouter.js
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Step by step [How to add pnpm to your system]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+THIS IS NECESARY TO RUN THE PROJECT!!
 
-### `npm run eject`
+ ## Node.js is preinstalled On Linux or macOS:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+`curl -f https://get.pnpm.io/v6.16.js | node - add --global pnpm`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## On Windows (PowerShell):
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+`Invoke-WebRequest 'https://get.pnpm.io/v6.16.js' -UseBasicParsing -o pnpm.js; node pnpm.js add --global pnpm; Remove-Item pnpm.js`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The standalone script is signed. Here's how to verify it.
 
-## Learn More
+## Using Homebrew
+If you have the package manager installed, you can install pnpm using the following command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`brew install pnpm`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Using npm
+`npm install -g pnpm`
 
-### Code Splitting
+### So, you are ready to averything
+## LET'S DO IT!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# HR Brive Solutions scripts and commands
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+| Name                         | Description                                                                                                                          |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| `pnpm install`           | install all dependencies                                                                            |
+| `pnpm start ` | run the project in localhost:3000                                                       |
+| `pnpm build`    |    prepare your project to production                                                                              |
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
