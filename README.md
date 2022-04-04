@@ -1,10 +1,10 @@
-# HR Brive Solutions
+# Monopoly
 
 ## DEPLOYED PROJECT [yes, you should to click]
 
-[![CLICK ME TO SEE THE MAGIC](https://github.com/taberoajorge/gif/blob/main/HwN1QGT%20-%20Imgur.gif?raw=true)](https://adoring-brattain-a222ff.netlify.app)
+[![CLICK ME TO SEE THE MAGIC](https://github.com/taberoajorge/gif/blob/main/HwN1QGT%20-%20Imgur.gif?raw=true)](http://monopoly-iota.vercel.app/)
 
-This repo will hold a complete to listed and add all your team!.
+This repo will hold a complete to listed and add all your Lands!.
 You're Welcome future folk! 
 
 
@@ -13,32 +13,33 @@ You're Welcome future folk!
 
 
 
-[![Open in VSCode](https://img.shields.io/badge/Open%20in-VSCode%20Web-blue?style=for-the-badge)](https://github.dev/taberoajorge/hr-brive-solutions)
+[![Open in VSCode](https://img.shields.io/badge/Open%20in-VSCode%20Web-blue?style=for-the-badge)](https://github.dev/taberoajorge/monopoly)
 
 
 ```
 
+.
+├── App.tsx
 ├── components
-│   ├── Header.js
-│   ├── ProfileImage.js
-│   └── UserDetails.js
-├── context
-│   └── userContext.js
-├── helpers
-│   ├── getUsers.js
-│   ├── updateData.js
-│   └── viewProfile.js
+│   ├── InputComponent.tsx
+│   │   └── InputComponent.tsx
+│   ├── LandForm
+│   │   └── index.tsx
+│   ├── LandMaker
+│   │   └── index.tsx
+│   ├── ListComponent
+│   │   └── index.tsx
+│   ├── ListContainer
+│   │   └── index.tsx
+│   └── Modal
+│       └── index.tsx
+├── GlobalStyles.tsx
 ├── hooks
-│   └── useLocalStorage.js
-├── index.js
-├── layout
-│   ├── DetailItem.js
-│   └── ListContainer.js
-├── pages
-│   ├── Employee.js
-│   └── Home.js
-└── routes
-    └── AppRouter.js
+│   ├── useForm.ts
+│   ├── useLands.ts
+│   └── useLocalStorage.ts
+├── main.tsx
+└── vite-env.d.ts
 
 ```
 
@@ -68,7 +69,7 @@ If you have the package manager installed, you can install pnpm using the follow
 ### So, you are ready to averything
 ## LET'S DO IT!
 
-# HR Brive Solutions scripts and commands
+# Monopoly scripts and commands
 
 
 | Name                         | Description                                                                                                                          |
